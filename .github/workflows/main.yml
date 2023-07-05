@@ -30,6 +30,6 @@ jobs:
         with:
           path: docs/.vitepress/dist # path to build files directory
 
-      - name: Deploy to GH Pages
+      - name: Deploy to GH Pages # deploy
         id: deployment
         uses: actions/deploy-pages@v1
