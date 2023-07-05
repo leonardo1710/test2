@@ -28,7 +28,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: docs/.vitepress/dist # path to build files directory
+          path: .vitepress/dist # path to build files directory
 
       - name: Deploy to GH Pages # deploy
         id: deployment
